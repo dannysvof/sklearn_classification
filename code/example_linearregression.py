@@ -26,8 +26,6 @@ model.fit(X_train, Y_train)
 #save the model to disk
 pickle.dump(model, open('../model/lgmodel', 'wb'))
 
-
-time.sleep(3)
 #load model from disk
 loaded_model = pickle.load(open('../model/lgmodel', 'rb'))
 result = loaded_model.score(X_test, Y_test)
@@ -37,7 +35,6 @@ print(result)
 
 #Interactive 
 import sys
-import random 
 print('------------------------------------------------------------------')
 print('binary classification example by using linear regression algorithm')
 print('------------------------------------------------------------------')

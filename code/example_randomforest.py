@@ -37,7 +37,6 @@ print(result)
 
 #Interactive 
 import sys
-import random 
 print('-------------------------------------------------------------')
 print('binary classification example by using randomforest algorithm')
 print('-------------------------------------------------------------')
